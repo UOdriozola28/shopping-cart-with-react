@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/geologica':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/ubuntu':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@radix-ui/react-select':
         specifier: ^2.2.5
         version: 2.2.5(@types/react-dom@19.1.5(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -287,6 +293,12 @@ packages:
 
   '@floating-ui/utils@0.2.9':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
+
+  '@fontsource-variable/geologica@5.2.5':
+    resolution: {integrity: sha512-jNjF5bpffc9y6p/cVGZSSnAA06JgxQjt/7Ux+t19xmroHjQhPkGBIY72chy3XUg4GBH72ByPzdAT1RxOQNiWNQ==}
+
+  '@fontsource/ubuntu@5.2.5':
+    resolution: {integrity: sha512-VKVFVqmJ9MGnOJW2dsQ982qHN8Zr+tNeEwEHnzt5VdGi9ZWL37wYFD32YsqukWlI/+I7v5ZkgHTEAvsZxU6aDA==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1672,6 +1684,10 @@ snapshots:
       react-dom: 19.1.0(react@19.1.0)
 
   '@floating-ui/utils@0.2.9': {}
+
+  '@fontsource-variable/geologica@5.2.5': {}
+
+  '@fontsource/ubuntu@5.2.5': {}
 
   '@humanfs/core@0.19.1': {}
 
