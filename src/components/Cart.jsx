@@ -6,6 +6,7 @@ import { useCart } from '../hooks/useCart.jsx'
 import { motion, AnimatePresence } from "motion/react"
 import { useState } from 'react'
 import { useCallback } from 'react'
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 
 function CartItem({ image, price, title, quantity, addToCart }) {
@@ -59,7 +60,7 @@ export function Cart() {
     })
   }, [])
 
-
+  const [parent] = useAutoAnimate()
 
   return (
     <>
@@ -81,7 +82,7 @@ export function Cart() {
                 hasCartItems && <h3>Carrito</h3>
               }
 
-              <ul style={{ marginTop: '25px' }}>
+              <ul style={{ marginTop: '25px' }} ref={parent}>
                 {
                   hasCartItems ?
                     (
